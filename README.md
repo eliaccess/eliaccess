@@ -59,6 +59,14 @@
 
 # Projects
 
+## [Regression ML algorithms for CVSS estimation](https://github.com/eliaccess/cvss-regression-machine-learning/blob/main/cvss_regression.ipynb)
+
+This project comes from an issue : it is important in some fields to evaluate the danger of a cyber attack, to sort their correction priority. Therefore, the CVSS, which goes from 0 to 10, evaluates this criticity. Using Machine Learning to evaluate this risk might be a good solution to make it quicker based on the stack and other information. In this Notebook, we will try this solution, using the regressive approach.
+
+Most of the work done is a data exploration, using matplotlib and seaborn most of the time to draw correlations and highlight useful information for future use. I have used scikit learn and pandas to manipulate the data and to create preprocessing and modeling functions, to get the best combination of preprocess+models, using the mean median error as the most representative metric for performance.
+
+This project is a project done for researchers, at university, to detect cyber attacks on autonomous trains.
+
 ## TODO: Upload projects and describe them here
 
 # Connect with me  
