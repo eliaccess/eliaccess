@@ -69,7 +69,7 @@
 This project comes from an issue : it is important in some fields to evaluate the danger of a cyber attack, to sort their correction priority. Therefore, the CVSS, which goes from 0 to 10, evaluates this criticity. Using Machine Learning to evaluate this risk might be a good solution to make it quicker based on the stack and other information. In this Notebook, we will try this solution, using the regressive approach.
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/learning_curve.png" target="_blank" alt="Learning curve of the Random Forest model" height="150">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/learning_curve.png" target="_blank" alt="Learning curve of the Random Forest model" width="50%">
 </p>
 
 Most of the work done is a data exploration, using matplotlib and seaborn most of the time to draw correlations and highlight useful information for future use. I have used scikit learn and pandas to manipulate the data and to create preprocessing and modeling functions, to get the best combination of preprocess+models, using the mean median error as the most representative metric for performance.
