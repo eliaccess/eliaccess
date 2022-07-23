@@ -1,4 +1,4 @@
-<img src="https://github.com/eliaccess/eliaccess/blob/main/header.png" alt="banner that says Elias Limouni, portfolio of a junior data scientist">
+<img src="https://github.com/eliaccess/eliaccess/blob/main/img/header.png" alt="banner that says Elias Limouni, portfolio of a junior data scientist">
   
 ### <div align="center">I'm Elias, a junior Data Scientist 👨‍💻 Working since June 2020💻</div>  
 
@@ -71,6 +71,25 @@ This project comes from an issue : it is important in some fields to evaluate th
 Most of the work done is a data exploration, using matplotlib and seaborn most of the time to draw correlations and highlight useful information for future use. I have used scikit learn and pandas to manipulate the data and to create preprocessing and modeling functions, to get the best combination of preprocess+models, using the mean median error as the most representative metric for performance.
 
 This project is a project done for researchers, at university, to detect cyber attacks on autonomous trains.
+
+## Following green target for Turtle Bot 3 Burger
+
+The goal of this project was to develop a multithreaded program to make a [robot]( https://www.turtlebot.com/turtlebot3/) follow a green target, using only:
+-	A camera
+-	A LiDAR
+
+The project had requirements to respect:
+-	Stop the robot if any obstacle is closer than 15 centimeters from the robot, all around it
+-	Make it follow a colored target that would move in front of the target
+
+To respect these needs, I have implemented several features, using Python and the ROS library to parallelize the data processing in 7 nodes, as explained on the following picture.
+
+<img src="https://github.com/eliaccess/eliaccess/blob/main/img/turtlebot_schema.png" alt="ROS nodes and topics">
+
+To optimize the robot’s motion, I have implemented a distance estimator that uses the image of the target, knowing its real size. Therefore, I have added a function to make the robot go backward if the target was too close.
+
+<img src="https://github.com/eliaccess/eliaccess/blob/main/img/optical_relation_distance_object.png" alt="ROS nodes and topics">
+
 
 ## TODO: Other projects will be publicated soon
 
