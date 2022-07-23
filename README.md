@@ -84,11 +84,14 @@ The project had requirements to respect:
 
 To respect these needs, I have implemented several features, using Python and the ROS library to parallelize the data processing in 7 nodes, as explained on the following picture.
 
-<img src="https://github.com/eliaccess/eliaccess/blob/main/img/turtlebot_schema.png" alt="ROS nodes and topics">
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/turtlebot_schema.png" target="_blank" alt="ROS nodes and topics" height="500">
+</p>
 
 To optimize the robot’s motion, I have implemented a distance estimator that uses the image of the target, knowing its real size. Therefore, I have added a function to make the robot go backward if the target was too close.
-
-<img src="https://github.com/eliaccess/eliaccess/blob/main/img/optical_relation_distance_object.png" alt="ROS nodes and topics">
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/optical_relation_distance_object.png" target="_blank" alt="ROS nodes and topics" height="200">
+</p>
 
 
 ## TODO: Other projects will be publicated soon
