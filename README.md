@@ -85,14 +85,28 @@ This project is a project done for researchers, at university, to detect cyber a
 
 ## :abacus: :lock: Multilingual NER models evaluation
 
-### This part will be added soon
+The Named Entity Recognition is a Natural Language Processing domain. It is a problem of automatic data analysis, consisting in extracting a type of entity from a text. A NER model can for example extract all the people, dates, locations etc. from a document:
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/ner_example.png" target="_blank" alt="Schema of entities extracted, NER" width="50%">
+</p>
+
+These models are usually monolingual. However the company needed to explore the possibility of using one model to extract entities from lots of documents, in 5 languages. This would allow the company to avoid its customers from deploying 5 different models, and from detecting the language of each document analyzed.
+
+To do so, I found lots of annotated datasets (from Kaggle and other sources), several pre-trained models, and designed a benchmark to calculate the metrics of the models. To understand why some results were low, I analyzed the results by tag, like this:
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/score_ner_tags.png" target="_blank" alt="Example of the scores of tags in a NER task" width="50%">
+</p>
+
+This further study allowed me to understand the semantic reasons for these disparities in results. It allowed the team to correct this issue by using transfer learning, such as fine tuning for example.
 
 ## :abacus: :lock: OCR benchmark and preprocess optimization
 
 The company needed to quantify its OCR tool performances. An Optical Character Recognition is a Computer Vision technology that extracts the text from an image.
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/ocr_explained.png" target="_blank" alt="Learning curve of the Random Forest model" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/ocr_explained.png" target="_blank" alt="OCR picture working" width="50%">
 </p>
 
 Therefore, I designed a benchmark to do so. First, I had to think about how to evaluate an OCR:
@@ -116,7 +130,7 @@ As a project for a Machine Learning course, I had to explore with a teamate solu
 - to use the famous [Adults Income dataset](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/model_results.png" target="_blank" alt="Learning curve of the Random Forest model" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/model_results.png" target="_blank" alt="Metrics obtained with a model" width="50%">
 </p>
 
 We used a Jupyter Notebook to capitalize all the work done on the study. To process algorithms on the dataset, we used libraries such as Pandas, Seaborn (for the data exploration), and Scikit-learn to test several models. We optimized the preprocessing to get the best processing chain.
@@ -128,7 +142,7 @@ As I usually do, I have done the study in 4 parts:
 - evaluation, to know the performances of our models, and making sure we had no under/over fitting
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/train_test_score.png" target="_blank" alt="Learning curve of the Random Forest model" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/train_test_score.png" target="_blank" alt="Training and validation scores depending on the data learned on" width="50%">
 </p>
 
 We did no optimization on this model, because of the time we had, but we could have optimized some parameters of the best model we got, using GridSearchCV for example.
@@ -153,7 +167,7 @@ To respect these needs, I have implemented several features, using Python and th
 
 To optimize the robot’s motion, I have implemented a distance estimator that uses the image of the target, knowing its real size. Therefore, I have added a function to make the robot go backward if the target was too close.
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/optical_relation_distance_object.png" target="_blank" alt="ROS nodes and topics" height="200">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/optical_relation_distance_object.png" target="_blank" alt="Relation between the size of an object and its size seen by the camera" height="200">
 </p>
 
 
