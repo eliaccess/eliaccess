@@ -96,7 +96,7 @@ These models are usually monolingual. However the company needed to explore the 
 To do so, I found lots of annotated datasets (from Kaggle and other sources), several pre-trained models, and designed a benchmark to calculate the metrics of the models. To understand why some results were low, I analyzed the results by tag, like this:
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/score_ner_tags.png" target="_blank" alt="Example of the scores of tags in a NER task" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/scores_ner_tags.png" target="_blank" alt="Example of the scores of tags in a NER task" width="50%">
 </p>
 
 This further study allowed me to understand the semantic reasons for these disparities in results. It allowed the team to correct this issue by using transfer learning, such as fine tuning for example.
