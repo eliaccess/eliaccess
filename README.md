@@ -3,7 +3,7 @@
 ### <div align="center">I'm Elias, a junior Data Scientist 👨‍💻 Working since June 2020💻</div>  
 
 - 🔭 I’m currently working on NLP tasks at [OppScience](https://oppscience.com/)
-- 📖 Now on my last year of Master of Science (French Engineering degree)  
+- 📖 Now on my last year of Master of Science at [Université de Technologie de Compiègne](https://www.utc.fr/) (French Engineering degree) 
 - 🌱 I'm learning Tensorflow, especially the Computer Vision using NN  
 - 📫 Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/elias-limouni/)  
 - ⚡ I love making robots, using Machine Learning to improve them  
