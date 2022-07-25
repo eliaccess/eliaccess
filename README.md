@@ -64,7 +64,14 @@
 
 # Projects
 
-## [Regression ML algorithms for CVSS estimation](https://github.com/eliaccess/cvss-regression-machine-learning/blob/main/cvss_regression.ipynb)
+To improve the lisibility of my projects, here is a legend of the emojis in the title of the projects:
+- :lock: : private project, for a company for example, so I can not show the code
+- :abacus: : data science project
+- :robot: : robotics / IoT project
+- :books: : school project
+- :man: : personal project
+
+## [:abacus: :books: Regression ML algorithms for CVSS estimation](https://github.com/eliaccess/cvss-regression-machine-learning/blob/main/cvss_regression.ipynb)
 
 This project comes from an issue : it is important in some fields to evaluate the danger of a cyber attack, to sort their correction priority. Therefore, the CVSS, which goes from 0 to 10, evaluates this criticity. Using Machine Learning to evaluate this risk might be a good solution to make it quicker based on the stack and other information. In this Notebook, we will try this solution, using the regressive approach.
 
@@ -76,7 +83,33 @@ Most of the work done is a data exploration, using matplotlib and seaborn most o
 
 This project is a project done for researchers, at university, to detect cyber attacks on autonomous trains.
 
-## [Classification model on the Adults Income dataset](https://gitlab.com/elimouni/ai28-projet-machine-learning/-/blob/main/code/project_notebook.ipynb)
+## :abacus: :lock: Multilingual NER models evaluation
+
+### This part will be added soon
+
+## :abacus: :lock: OCR benchmark and preprocess optimization
+
+The company needed to quantify its OCR tool performances. An Optical Character Recognition is a Computer Vision technology that extracts the text from an image.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/ocr_explained.png" target="_blank" alt="Learning curve of the Random Forest model" width="50%">
+</p>
+
+Therefore, I designed a benchmark to do so. First, I had to think about how to evaluate an OCR:
+- which preprocessing functions ?
+- what kind of data ?
+- how to quantify the quality that results from an OCR ?
+
+I chose three criterias to find their impact on the metrics: the font, the font size, and the quality (dimensions) of the document. I studied the impact of the gray scale and the rotation preprocessing functions. Based on these choices, I searched on the internet several datasets to have a representative rate of documents. I then standardized them to respect the HOCR format, cutting the picture in boxes, to locate the text. This allowed me to match the extracted text to its true value.
+
+To quantify the capacities of the OCR, I used a Levenshtein distance calculator function I optimized to calculate the precision, recall and f1 score.
+
+After that, I improved the rotation preprocessing function to reduce the processing time, based on the determined angle.
+
+At the end of the project, I made a presentation to explain all the propositions to the other members of the team to decide what changes we must integrate into the program.
+
+
+## [:abacus: :books: Classification model on the Adults Income dataset](https://gitlab.com/elimouni/ai28-projet-machine-learning/-/blob/main/code/project_notebook.ipynb)
 
 As a project for a Machine Learning course, I had to explore with a teamate solutions to predict if the income of people were less or more than 50K dollars a year (binary classification). The only two rules to respect were:
 - to find quickly a solution (we had maximum 10 hours per person on this project)
@@ -95,14 +128,14 @@ As I usually do, I have done the study in 4 parts:
 - evaluation, to know the performances of our models, and making sure we had no under/over fitting
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/train_test_score.png" target="_blank" alt="Learning curve of the Random Forest model" width="70%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/train_test_score.png" target="_blank" alt="Learning curve of the Random Forest model" width="50%">
 </p>
 
 We did no optimization on this model, because of the time we had, but we could have optimized some parameters of the best model we got, using GridSearchCV for example.
 
 After doing the study, we have presented it orally using a Power Point presentation to explain our choices and the results we obtained.
 
-## [Following green target for Turtle Bot 3 Burger](https://gitlab.com/elimouni/turtle-bot-ai06)
+## [:robot: :books: Following green target for Turtle Bot 3 Burger](https://gitlab.com/elimouni/turtle-bot-ai06)
 
 The goal of this project was to develop a multithreaded program to make a [robot]( https://www.turtlebot.com/turtlebot3/) follow a green target, using only:
 -	A camera
