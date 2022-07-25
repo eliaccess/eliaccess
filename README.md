@@ -76,7 +76,7 @@ Most of the work done is a data exploration, using matplotlib and seaborn most o
 
 This project is a project done for researchers, at university, to detect cyber attacks on autonomous trains.
 
-## Following green target for Turtle Bot 3 Burger
+## [Following green target for Turtle Bot 3 Burger](https://gitlab.com/elimouni/turtle-bot-ai06)
 
 The goal of this project was to develop a multithreaded program to make a [robot]( https://www.turtlebot.com/turtlebot3/) follow a green target, using only:
 -	A camera
@@ -100,7 +100,7 @@ To optimize the robot’s motion, I have implemented a distance estimator that u
 
 ## TODO: Other projects will be publicated soon
 
-# Connect with me  
+# Connect with me
 <div align="center">
 <a href="https://github.com/eliaccess" target="_blank">
 <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
