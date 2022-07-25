@@ -2,7 +2,7 @@
   
 ### <div align="center">I'm Elias, a junior Data Scientist 👨‍💻 Working since June 2020💻</div>  
 
-- 🔭 I’m currently working on Sentence Bounding Detection for NLP optimization  
+- 🔭 I’m currently working on Sentence Bounding Detection for NLP optimization at [OppScience](https://oppscience.com/)
 - 📖 Now on my last year of Master of Science (French Engineering degree)  
 - 🌱 I'm learning Tensorflow, especially the Computer Vision using NN  
 - 📫 Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/elias-limouni/)  
