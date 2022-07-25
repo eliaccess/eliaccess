@@ -76,6 +76,32 @@ Most of the work done is a data exploration, using matplotlib and seaborn most o
 
 This project is a project done for researchers, at university, to detect cyber attacks on autonomous trains.
 
+## [Classification model on the Adults Income dataset](https://gitlab.com/elimouni/ai28-projet-machine-learning/-/blob/main/code/project_notebook.ipynb)
+
+As a project for a Machine Learning course, I had to explore with a teamate solutions to predict if the income of people were less or more than 50K dollars a year (binary classification). The only two rules to respect were:
+- to find quickly a solution (we had maximum 10 hours per person on this project)
+- to use the famous [Adults Income dataset](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/model_results.png" target="_blank" alt="Learning curve of the Random Forest model" width="50%">
+</p>
+
+We used a Jupyter Notebook to capitalize all the work done on the study. To process algorithms on the dataset, we used libraries such as Pandas, Seaborn (for the data exploration), and Scikit-learn to test several models. We optimized the preprocessing to get the best processing chain.
+
+As I usually do, I have done the study in 4 parts:
+- exploratory data analysis, using graphs, statistics, plots etc.
+- data preparation, by creating several preprocessing chains
+- modelisation, by creating several models, each one using every preprocessing-model combination
+- evaluation, to know the performances of our models, and making sure we had no under/over fitting
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/train_test_score.png" target="_blank" alt="Learning curve of the Random Forest model" width="70%">
+</p>
+
+We did no optimization on this model, because of the time we had, but we could have optimized some parameters of the best model we got, using GridSearchCV for example.
+
+After doing the study, we have presented it orally using a Power Point presentation to explain our choices and the results we obtained.
+
 ## [Following green target for Turtle Bot 3 Burger](https://gitlab.com/elimouni/turtle-bot-ai06)
 
 The goal of this project was to develop a multithreaded program to make a [robot]( https://www.turtlebot.com/turtlebot3/) follow a green target, using only:
