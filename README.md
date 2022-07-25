@@ -71,6 +71,13 @@ To improve the lisibility of my projects, here is a legend of the emojis in the 
 - :books: : school project
 - :man: : personal project
 
+List of the projects:
+- [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
+- [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
+- [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
+- [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
+- [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
+
 ## [:abacus: :books: Regression ML algorithms for CVSS estimation](https://github.com/eliaccess/cvss-regression-machine-learning/blob/main/cvss_regression.ipynb)
 
 This project comes from an issue : it is important in some fields to evaluate the danger of a cyber attack, to sort their correction priority. Therefore, the CVSS, which goes from 0 to 10, evaluates this criticity. Using Machine Learning to evaluate this risk might be a good solution to make it quicker based on the stack and other information. In this Notebook, we will try this solution, using the regressive approach.
@@ -169,9 +176,6 @@ To optimize the robot’s motion, I have implemented a distance estimator that u
 <p align="center">
   <img src="https://github.com/eliaccess/eliaccess/blob/main/img/optical_relation_distance_object.png" target="_blank" alt="Relation between the size of an object and its size seen by the camera" height="200">
 </p>
-
-
-## TODO: Other projects will be publicated soon
 
 # Connect with me
 <div align="center">
