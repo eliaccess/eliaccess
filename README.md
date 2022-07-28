@@ -77,18 +77,12 @@ To improve the lisibility of my projects, here is a legend of the emojis in the 
 - :man: : personal project
 
 List of the projects:
-- [My Skills](#my-skills)
-    - [Data Science](#data-science)
-    - [Robotics & IoT](#robotics--iot)
-    - [DevOps & Miscs](#devops--miscs)
-- [Projects](#projects)
-  - [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
-  - [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
-  - [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
-  - [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
-  - [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
-  - [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
-- [Connect with me](#connect-with-me)
+- [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
+- [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
+- [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
+- [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
+- [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
+- [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
 
 ## [:abacus: :books: Regression ML algorithms for CVSS estimation](https://github.com/eliaccess/cvss-regression-machine-learning/blob/main/cvss_regression.ipynb)
 
