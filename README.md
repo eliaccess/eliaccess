@@ -77,11 +77,18 @@ To improve the lisibility of my projects, here is a legend of the emojis in the 
 - :man: : personal project
 
 List of the projects:
-- [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
-- [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
-- [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
-- [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
-- [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
+- [My Skills](#my-skills)
+    - [Data Science](#data-science)
+    - [Robotics & IoT](#robotics--iot)
+    - [DevOps & Miscs](#devops--miscs)
+- [Projects](#projects)
+  - [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
+  - [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
+  - [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
+  - [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
+  - [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
+  - [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
+- [Connect with me](#connect-with-me)
 
 ## [:abacus: :books: Regression ML algorithms for CVSS estimation](https://github.com/eliaccess/cvss-regression-machine-learning/blob/main/cvss_regression.ipynb)
 
@@ -134,6 +141,29 @@ After that, I improved the rotation preprocessing function to reduce the process
 
 At the end of the project, I made a presentation to explain all the propositions to the other members of the team to decide what changes we must integrate into the program.
 
+## :abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities
+
+To improve an NLP processing, the company needed to ameliorate the preprocessing of the data. Tokenization is one of them, and is essential. There are several ways to tokenize a text, but one of them is to cut it in paragraphs, to extract the sentences from each paragraph, and to get each word and punctuation of these sentences. The interesting fact in this analyze is that it keeps the fact that two words in the same sentence are more linked than if they are in separate ones. The issue is that sentences can end differently than a dot, an exclamation point or any other punctuation. Sentence Boundary Detection is an actual NLP problematic, and models exist to do this task. Therefore, I had to evaluate the actual models of the company's solution, and then to try to find SBD models that do better.
+
+<p align="center">
+  <img src="https://s3.amazonaws.com/work-sample-images/blog_segmentation.jpg" target="_blank" alt="What is SBD" width="50%">
+</p>
+
+To do so, I had to find SBD datasets, that contained various data forms such as tables, headers, lists etc., and standardize their format to be able to evaluate models in the most complete way possible. Then, I made a state of the art to list the available models. Then I created a benchmark to test these models, using Python, and approaching the problem by a binary classification (0 if the index is a bound, else 1). Then, I was able to evaluate the precision, recall, and f1 score of the 'is a bound' class (1).
+
+The main issue I faced in the SBD problem is that there are many ways to consider that a substring of a text is a sentence or not. It really depends on the annotated dataset used to train the model, as shown on the next picture. That is why I had to add some tolerance to be objective.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/sbd_difference.png" target="_blank" alt="Different kind of bounds" width="50%">
+</p>
+
+I tried lots of models, some that are syntaxic only (such as [PySBD](https://github.com/nipunsadvilkar/pySBD)), or complax models using Neural Networks (for example [Stanza](https://stanfordnlp.github.io/stanza/tokenize.html)). At the end of the study, I made a presentation with my analyzis of the limits of each models (punctuation impact mostly), to make one better model.
+
+On the best model, I obtained very good results that hugely improved the solution:
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/sbd_best_result.png" target="_blank" alt="Different kind of bounds" width="50%">
+</p>
 
 ## [:abacus: :books: Classification model on the Adults Income dataset](https://gitlab.com/elimouni/ai28-projet-machine-learning/-/blob/main/code/project_notebook.ipynb)
 
