@@ -11,7 +11,7 @@
 <br/>  
 
 
-# My Skills
+# Skills
 To get the name of the skill, place your cursor on it.
 <table><tr align="center"><td valign="top" width="33%">
 
