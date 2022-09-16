@@ -92,7 +92,7 @@ In order to get the IBM Professional Data Science Certificate, I developed solut
 SpaceX intends to reduce the costs of spatial flights by reusing the first stage of their rockets. This project goal is to predict if the first stage of a Falcon 9 rocket will lang back to Earth successfully.
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/data_collection_spacex.png" target="_blank" alt="Data Collection on two sources for the Applied Data Science Capstone from IBM" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/data_collection_spacex.png" target="_blank" alt="Data Collection on two sources for the Applied Data Science Capstone from IBM" width="40%">
 </p>
 
 The data used was collected using the SpaceX REST API, and a Wikipedia article about the Falcon 9 rockets. I performed Web Scraping in order to extract useful data from the second data source.
