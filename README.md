@@ -100,7 +100,7 @@ The data used was collected using the SpaceX REST API, and a Wikipedia article a
 I performed an Exploratory Data Analysis using Folium to make a map to study distances, Dash to create an interactive dashboard, and of course other Python libraries to create scatterplots, bar charts and lots of other visualizations.
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/dashboard_spacex.png" target="_blank" alt="Dashboard created with Dash from Plotly for the Applied Data Science Capstone from IBM" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/dashboard_spacex.png" target="_blank" alt="Dashboard created with Dash from Plotly for the Applied Data Science Capstone from IBM" width="70%">
 </p>
 
 I used 4 classification models and optimized their parameters to find the best solution to solve the problem.
