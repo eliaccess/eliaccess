@@ -3,7 +3,7 @@
 ### <div align="center">I'm Elias, a junior Data Scientist 👨‍💻 Working since June 2020💻</div>  
 
 - 🔭 I’m currently working on NLP tasks at [OppScience](https://oppscience.com/)
-- 📖 Now on my last year of Master of Science at [Université de Technologie de Compiègne](https://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma/computer-sciences-and-engineering-gi/) (French Engineering degree) 
+- 📖 Now on my last year of Master of Engineering at [Université de Technologie de Compiègne](https://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma/computer-sciences-and-engineering-gi/) (French Engineering degree) 
 - 🌱 I'm learning Tensorflow, especially the Computer Vision using NN  
 - 📫 Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/elias-limouni/)  
 - ⚡ I love making robots, using Machine Learning to improve them  
@@ -73,16 +73,40 @@ To improve the lisibility of my projects, here is a legend of the emojis in the 
 - :lock: : private project, for a company for example, so I can not show the code
 - :abacus: : data science project
 - :robot: : robotics / IoT project
-- :books: : school project
+- :books: : educational project
 - :man: : personal project
 
 List of the projects:
+- [:abacus: :books: Winning Space race with Data Science](#abacus-books-winning-space-race-with-data-science)
 - [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
 - [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
 - [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
 - [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
 - [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
 - [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
+
+## [:abacus: :books: Winning Space race with Data Science](https://github.com/eliaccess/Applied-Data-Science-Capstone/blob/master/report-spacex.pdf)
+
+In order to get the IBM Professional Data Science Certificate, I developed solutions in order to solve this applied Data Science capstone.
+
+SpaceX intends to reduce the costs of spatial flights by reusing the first stage of their rockets. This project goal is to predict if the first stage of a Falcon 9 rocket will lang back to Earth successfully.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/data_collection_spacex.png" target="_blank" alt="Data Collection on two sources for the Applied Data Science Capstone from IBM" width="50%">
+</p>
+
+The data used was collected using the SpaceX REST API, and a Wikipedia article about the Falcon 9 rockets. I performed Web Scraping in order to extract useful data from the second data source.
+
+I performed an Exploratory Data Analysis using Folium to make a map to study distances, Dash to create an interactive dashboard, and of course other Python libraries to create scatterplots, bar charts and lots of other visualizations.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/dashboard_spacex.png" target="_blank" alt="Dashboard created with Dash from Plotly for the Applied Data Science Capstone from IBM" width="50%">
+</p>
+
+I used 4 classification models and optimized their parameters to find the best solution to solve the problem.
+
+At the end of the project, I created a synthetic but complete 45 pages report to explain the work using a storytelling method.
+
 
 ## [:abacus: :books: Regression ML algorithms for CVSS estimation](https://github.com/eliaccess/cvss-regression-machine-learning/blob/main/cvss_regression.ipynb)
 
