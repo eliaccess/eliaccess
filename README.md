@@ -12,10 +12,14 @@
 
 # Certifications & Badges
 
+To see the details of the certificates and the authenticity verification page, feel free to click on them. The diplomas are available on my [LinkedIn profile](https://linkedin.com/in/elias-limouni).
+
 <table><tr align="center"><td valign="top" width="100%">
+
+#### IBM Professional Data Science Certificate
 <div align="center">
 <a href="https://www.credly.com/badges/ec2f583a-b507-4ef5-9b7c-514303a7f89a">
-<img style="margin: 10px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/ibm_data_science_certificate.png" alt="IBM Professional Data Science Certificate" title="IBM Professional Data Science Certificate" height="100" />
+<img style="margin: 10px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/ibm_data_science_certificate.png" alt="IBM Professional Data Science Certificate" title="IBM Professional Data Science Certificate" height="175" />
 </a>
 </div>
 </td></tr></table>
