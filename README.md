@@ -8,8 +8,17 @@
 - 📫 Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/elias-limouni/)  
 - ⚡ I love making robots, using Machine Learning to improve them  
 
-<br/>  
+<br/>
 
+# Certifications & Badges
+
+<table><tr align="center"><td valign="top" width="100%">
+<div align="center">
+<a href="https://www.credly.com/badges/ec2f583a-b507-4ef5-9b7c-514303a7f89a">
+<img style="margin: 10px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/ibm_data_science_certificate.png" alt="IBM Professional Data Science Certificate" title="IBM Professional Data Science Certificate" height="100" />
+</a>
+</div>
+</td></tr></table>
 
 # Skills
 To get the name of the skill, place your cursor on it.
@@ -77,13 +86,20 @@ To improve the lisibility of my projects, here is a legend of the emojis in the 
 - :man: : personal project
 
 List of the projects:
-- [:abacus: :books: Winning Space race with Data Science](#abacus-books-winning-space-race-with-data-science)
-- [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
-- [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
-- [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
-- [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
-- [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
-- [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
+- [Certifications & Badges](#certifications--badges)
+- [Skills](#skills)
+    - [Data Science](#data-science)
+    - [Robotics & IoT](#robotics--iot)
+    - [DevOps & Miscs](#devops--miscs)
+- [Projects](#projects)
+  - [:abacus: :books: Winning Space race with Data Science](#abacus-books-winning-space-race-with-data-science)
+  - [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
+  - [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
+  - [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
+  - [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
+  - [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
+  - [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
+- [Connect with me](#connect-with-me)
 
 ## [:abacus: :books: Winning Space race with Data Science](https://github.com/eliaccess/Applied-Data-Science-Capstone/blob/master/report-spacex.pdf)
 
