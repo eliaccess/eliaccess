@@ -14,15 +14,22 @@
 
 To see the details of the certificates and the authenticity verification page, feel free to click on them. The diplomas are available on my [LinkedIn profile](https://linkedin.com/in/elias-limouni).
 
-<table><tr align="center"><td valign="top" width="100%">
+<div style="display: inline-block; vertical-align: top; width=100%; display: flex; flex-wrap: wrap; justify-content:center;align-items:center" >
+<div align="center" justify-content="center" align-items="center">
 
 #### IBM Data Science Professional Certificate
-<div align="center">
 <a href="https://www.credly.com/badges/ec2f583a-b507-4ef5-9b7c-514303a7f89a">
-<img style="margin: 10px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/ibm_data_science_certificate.png" alt="IBM Professional Data Science Certificate" title="IBM Professional Data Science Certificate" height="175" />
+<img style="margin: 10px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/ibm_data_science_certificate.png" alt="IBM Professional Data Science Certificate" title="IBM Professional Data Science Certificate" max-height="250" min-height="175" />
 </a>
 </div>
-</td></tr></table>
+<div align="center" justify-content="center" align-items="center">
+
+#### Machine Learning Specialization Certificate
+<a href="https://www.coursera.org/account/accomplishments/specialization/PZN7YFJ5ECL8">
+<img style="margin: 10px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/machine_learning_specialization.png" alt="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" title="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" max-height="250" min-height="175" />
+</a>
+</div>
+</div>
 
 # Skills
 To get the name of the skill, place your cursor on it.
