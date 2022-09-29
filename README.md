@@ -16,7 +16,7 @@ To see the details of the certificates and the authenticity verification page, f
 
 <div style="display: inline-block; vertical-align: top; width=100%; display: flex; flex-wrap: wrap; justify-content:center; align-items:center" >
 
-<div align="center" width="50%" justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column;">
+<div align="center" style="width=50%; justify-content: center; align-items: center; display: flex; flex-wrap: wrap; flex-direction: column;">
   <div justify-content="center" align-items="center" style="display: flex; width: 100%">
 
 #### IBM Data Science Professional Certificate
@@ -27,7 +27,7 @@ To see the details of the certificates and the authenticity verification page, f
     </a>
   </div>
 </div>
-<div align="center" width="50%" justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column;">
+<div align="center" style="width=50%; justify-content: center; align-items: center; display: flex; flex-wrap: wrap; flex-direction: column;">
 <div justify-content="center" align-items="center" style="display: flex; width: 100%">
 
 #### Machine Learning Specialization Certificate
