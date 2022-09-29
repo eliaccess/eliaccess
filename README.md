@@ -14,8 +14,9 @@
 
 To see the details of the certificates and the authenticity verification page, feel free to click on them. The diplomas are available on my [LinkedIn profile](https://linkedin.com/in/elias-limouni).
 
-<div style="display: inline-block; vertical-align: top; width=100%; display: flex; flex-wrap: wrap; justify-content:center;align-items:center" >
-<div align="center" justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column; max-width:250px !important; min-width:175px !important;">
+<p style="display: inline-block; vertical-align: top; width=100%; display: flex; flex-wrap: wrap; justify-content:center; align-items:center" >
+
+<div justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column; max-width:250px !important; min-width:175px !important;">
   <div justify-content="center" align-items="center" style="display: flex; width: 100%">
 
 #### IBM Data Science Professional Certificate
@@ -26,7 +27,7 @@ To see the details of the certificates and the authenticity verification page, f
     </a>
   </div>
 </div>
-<div align="center" justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column; max-width:250px !important; min-width:175px !important;">
+<div justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column; max-width:250px !important; min-width:175px !important;">
 <div justify-content="center" align-items="center" style="display: flex; width: 100%">
 
 #### Machine Learning Specialization Certificate
@@ -37,7 +38,7 @@ To see the details of the certificates and the authenticity verification page, f
 </a>
 </div>
 </div>
-</div>
+</p>
 
 # Skills
 To get the name of the skill, place your cursor on it.
