@@ -15,18 +15,18 @@
 To see the details of the certificates and the authenticity verification page, feel free to click on them. The diplomas are available on my [LinkedIn profile](https://linkedin.com/in/elias-limouni).
 
 <div style="display: inline-block; vertical-align: top; width=100%; display: flex; flex-wrap: wrap; justify-content:center;align-items:center" >
-<div align="center" justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column; max-height:250px !important; min-height:175px !important;">
-<div justify-content="center" align-items="center" style="display: flex; width: 100%">
+<div align="center" justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column; max-width:250px !important; min-width:175px !important;">
+  <div justify-content="center" align-items="center" style="display: flex; width: 100%">
 
 #### IBM Data Science Professional Certificate
+  </div>
+  <div style="display: flex; flex-wrap: wrap; display: flex; width: 100%" justify-content="center" align-items="center">
+    <a href="https://www.credly.com/badges/ec2f583a-b507-4ef5-9b7c-514303a7f89a">
+      <img style="margin: 10px; width: 90%;" src="https://github.com/eliaccess/eliaccess/blob/main/badges/ibm_data_science_certificate.png" alt="IBM Professional Data Science Certificate" title="IBM Professional Data Science Certificate" />
+    </a>
+  </div>
 </div>
-<div style="display: flex; flex-wrap: wrap; display: flex; width: 100%" justify-content="center" align-items="center">
-<a href="https://www.credly.com/badges/ec2f583a-b507-4ef5-9b7c-514303a7f89a">
-<img style="margin: 10px; width: 90%;" src="https://github.com/eliaccess/eliaccess/blob/main/badges/ibm_data_science_certificate.png" alt="IBM Professional Data Science Certificate" title="IBM Professional Data Science Certificate" />
-</a>
-</div>
-</div>
-<div align="center" justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column; max-height:250px !important; min-height:175px !important;">
+<div align="center" justify-content="center" align-items="center" style="display: flex; flex-wrap: wrap; flex-direction: column; max-width:250px !important; min-width:175px !important;">
 <div justify-content="center" align-items="center" style="display: flex; width: 100%">
 
 #### Machine Learning Specialization Certificate
