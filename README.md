@@ -34,7 +34,7 @@ To see the details of the certificates and the authenticity verification page, f
 </div>
 <div style="display: flex; flex-wrap: wrap; display: flex; width: 100%" justify-content="center" align-items="center">
 <a href="https://www.coursera.org/account/accomplishments/specialization/PZN7YFJ5ECL8">
-<img style="margin: 10px; 270px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/machine_learning_specialization.png" alt="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" title="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" />
+<img style="margin: 10px; width: 270px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/machine_learning_specialization.png" alt="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" title="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" />
 </a>
 </div>
 </div>
