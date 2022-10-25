@@ -31,13 +31,25 @@ To see the details of the certificates and the authenticity verification page, f
 <div justify-content="center" align-items="center" style="display: flex; width: 100%">
 
 #### Machine Learning Specialization Certificate
+  </div>
+    <div style="display: flex; flex-wrap: wrap; display: flex; width: 100%" justify-content="center" align-items="center">
+      <a href="https://www.coursera.org/account/accomplishments/specialization/PZN7YFJ5ECL8">
+        <img style="margin: 10px; width: 270px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/machine_learning_specialization.png" alt="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" title="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" />
+      </a>
+    </div>
 </div>
-<div style="display: flex; flex-wrap: wrap; display: flex; width: 100%" justify-content="center" align-items="center">
-<a href="https://www.coursera.org/account/accomplishments/specialization/PZN7YFJ5ECL8">
-<img style="margin: 10px; width: 270px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/machine_learning_specialization.png" alt="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" title="Stanford Online x DeepLearning.AI Machine Learning Specialization Certificate" />
-</a>
-</div>
-</div>
+
+<div align="center" style="width=50%; justify-content: center; align-items: center; display: flex; flex-wrap: wrap; flex-direction: column;">
+  <div justify-content="center" align-items="center" style="display: flex; width: 100%">
+
+#### Deep Learning Specialization Certificate
+  </div>
+    <div style="display: flex; flex-wrap: wrap; display: flex; width: 100%" justify-content="center" align-items="center">
+      <a href="https://www.credly.com/earner/earned/badge/4530972b-5f52-4f66-8c19-d3967a48cc0b">
+        <img style="margin: 10px; width: 270px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/deep_learning_specialization.png" alt="DeepLearning.AI Deep Learning Specialization Certificate" title="DeepLearning.AI Deep Learning Specialization Certificate" />
+      </a>
+    </div>
+  </div>
 </div>
 
 # Skills
@@ -109,6 +121,7 @@ List of the projects:
 - [Certifications & Badges](#certifications--badges)
       - [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate)
       - [Machine Learning Specialization Certificate](#machine-learning-specialization-certificate)
+      - [Deep Learning Specialization Certificate](#deep-learning-specialization-certificate)
 - [Skills](#skills)
     - [Data Science](#data-science)
     - [Robotics & IoT](#robotics--iot)
