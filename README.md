@@ -52,6 +52,19 @@ To see the details of the certificates and the authenticity verification page, f
   </div>
 </div>
 
+<div align="center" style="width=50%; justify-content: center; align-items: center; display: flex; flex-wrap: wrap; flex-direction: column;">
+  <div justify-content="center" align-items="center" style="display: flex; width: 100%">
+  
+#### Machine Learning Engineering for Production (MLOps) Specialization Certificate
+  </div>
+    <div style="display: flex; flex-wrap: wrap; display: flex; width: 100%" justify-content="center" align-items="center">
+      <a href="https://coursera.org/share/c333172ea8b8743f9f8e359b71fd7d0b">
+        <img style="margin: 10px; width: 270px" src="https://github.com/eliaccess/eliaccess/blob/main/badges/mlops_specialization.png" alt="Machine Learning Engineering for Production (MLOps) Specialization Certificate" title="Machine Learning Engineering for Production (MLOps) Specialization Certificate" />
+      </a>
+    </div>
+  </div>
+</div>
+
 # Skills
 To get the name of the skill, place your cursor on it.
 <table><tr align="center"><td valign="top" width="33%">
@@ -118,15 +131,6 @@ To improve the lisibility of my projects, here is a legend of the emojis in the 
 - :man: : personal project
 
 List of the projects:
-- [Certifications & Badges](#certifications--badges)
-      - [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate)
-      - [Machine Learning Specialization Certificate](#machine-learning-specialization-certificate)
-      - [Deep Learning Specialization Certificate](#deep-learning-specialization-certificate)
-- [Skills](#skills)
-    - [Data Science](#data-science)
-    - [Robotics & IoT](#robotics--iot)
-    - [DevOps & Miscs](#devops--miscs)
-- [Projects](#projects)
   - [:abacus: :books: Winning Space race with Data Science](#abacus-books-winning-space-race-with-data-science)
   - [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
   - [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
@@ -134,7 +138,6 @@ List of the projects:
   - [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
   - [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
   - [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
-- [Connect with me](#connect-with-me)
 
 ## [:abacus: :books: Winning Space race with Data Science](https://github.com/eliaccess/Applied-Data-Science-Capstone/blob/master/report-spacex.pdf)
 
