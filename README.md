@@ -3,7 +3,7 @@
 ### <div align="center">I'm Elias, a Junior Data Scientist 👨‍💻 Working since June 2020💻</div>  
 
 - 🔭 I’m currently working on NLP applications at [OppScience](https://oppscience.com/)
-- 📖 Master of Engineering at [Université de Technologie de Compiègne](https://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma/computer-sciences-and-engineering-gi/) (French Engineering degree), graduated in 2023
+- 📖 Master of Science in Computer Science at [Université de Technologie de Compiègne](https://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma/computer-sciences-and-engineering-gi/) (French Engineering degree), graduated in 2023
 - 🌱 I'm always learning new techs to keep myself up to date
 - 📫 Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/elias-limouni/)  
 - ⚡ I love making robots, using Machine Learning to improve them
