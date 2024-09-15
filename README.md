@@ -131,13 +131,26 @@ To improve the lisibility of my projects, here is a legend of the emojis in the 
 - :man: : personal project
 
 List of the projects:
+- [Certifications \& Badges](#certifications--badges)
+      - [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate)
+      - [Machine Learning Specialization Certificate](#machine-learning-specialization-certificate)
+      - [Deep Learning Specialization Certificate](#deep-learning-specialization-certificate)
+      - [Machine Learning Engineering for Production (MLOps) Specialization Certificate](#machine-learning-engineering-for-production-mlops-specialization-certificate)
+- [Skills](#skills)
+    - [Data Science](#data-science)
+    - [Robotics \& IoT](#robotics--iot)
+    - [DevOps \& Miscs](#devops--miscs)
+- [Projects](#projects)
   - [:abacus: :books: Winning Space race with Data Science](#abacus-books-winning-space-race-with-data-science)
   - [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
   - [:abacus: :lock: Multilingual NER models evaluation](#abacus-lock-multilingual-ner-models-evaluation)
   - [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
   - [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
+  - [:abacus: :lock: Relation Extraction models using clustering and semantic vectors combination systems](#abacus-lock-relation-extraction-models-using-clustering-and-semantic-vectors-combination-systems)
+  - [:abacus: :lock: Active Data Generation pipeline for automatic reinforcement learning systems](#abacus-lock-active-data-generation-pipeline-for-automatic-reinforcement-learning-systems)
   - [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
   - [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
+- [Connect with me](#connect-with-me)
 
 ## [:abacus: :books: Winning Space race with Data Science](https://github.com/eliaccess/Applied-Data-Science-Capstone/blob/master/report-spacex.pdf)
 
@@ -236,6 +249,46 @@ On the best model, I obtained very good results that hugely improved the solutio
 <p align="center">
   <img src="https://github.com/eliaccess/eliaccess/blob/main/img/sbd_best_result.png" target="_blank" alt="Different kind of bounds" width="50%">
 </p>
+
+## :abacus: :lock: Relation Extraction models using clustering and semantic vectors combination systems
+
+This project came after the optimization of the NER models. Given extracted entities, we wanted to know the relation between each of them. For instance, is the relation between a person and a date a "birthdate" relation, or not? The following picture shows how relations can be useful in NLP systems.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_explaination.png" target="_blank" alt="Relation Extraction use case example" width="50%">
+</p>
+
+This problem becomes more complex as we wanted to be able to introduce new relations in few-shot contexts, and also be able to reject samples (no relation), without having to train again the whole pipeline. Therefore, we designed a system that combines vectors (like BERT vectors), of each of the two entities, then projects them into a new space using a distance metric learning algorithm, and finally clusters all samples into labeled relations, as shown in the following picture.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_algorithm.png" target="_blank" alt="Algorithm of the relation extraction solution" width="50%">
+</p>
+
+After various optimizations, especially on the vector combination step, we achieved very good results, that allowed this system to be industriliazed and go to production.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_results.png" target="_blank" alt="Results of the relation extraction model" width="50%">
+</p>
+
+This unique system allowed us to solve very complex real-world problems in few-shot contexts, with very minimal training time as we used pre-trained encoders.
+
+## :abacus: :lock: Active Data Generation pipeline for automatic reinforcement learning systems using a multi-agent approach
+
+Data has always been a challenge for the Data Science industry. With the raise of LLMs, lots of projects around data generation were born. I pushed it a step further and designed a fully automatic system for NER and RE applications, in which a pre-trained model is sequentially fine-tuned on generated data that follows the style of a small production dataset, until it reaches satisfying results. The goal is here to optimize the fine-tuning of the model based on its struggles, focusing on its worst mistakes. 
+
+The algorithm, shown in the following picture, is pretty simple thanks to the multi-agent approach.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/active_data_generation_algorithm.png" target="_blank" alt="Algorithm of the active data generation tool" width="50%">
+</p>
+
+The first step is evaluating the pre-trained model on a small production dataset, from a client for instance. Then, based on the results of each entity class and relation class, scenarii are created for the data generation agent (a large language model). In the prompt are also injected samples of the production dataset, as the generated data should have the same "style" (defined precisely through criterions in the prompt). After that, a second agent (a smaller LLM) will evaluate the similarity in style of the generated and the original data (out of 100, using criterion given in the prompt), and give directions for the generation agent to improve the generated data. Using other metrics (self-BLEU for instance using n-grams), we made sure to avoid having duplicates in the generated dataset. Then, the model is fine-tuned on the generated dataset. Last step, the model is evaluated on the production dataset, and if the score is lower than a threshold (for instance f1-score < 0.8), the pipeline starts again. This allows to obtain an increase of the results of the models, effectively, in few-shot contexts. The following picture shows the results obtained on 4 consecutive iterations of the pipeline, on a NER model.
+
+<p align="center">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/active_data_generation_f1_score.png" target="_blank" alt="Evolution of the f1 score of the model using the active data generation pipeline" width="50%">
+</p>
+
+Even though it might look like a data contamination, as we train the model on augmented production data that we used to evaluate the model, other steps are added to avoid that. This pipeline allowed to get increase of up to 20% on the NER models used in production bu the company.
 
 ## [:abacus: :books: Classification model on the Adults Income dataset](https://gitlab.com/elimouni/ai28-projet-machine-learning/-/blob/main/code/project_notebook.ipynb)
 
