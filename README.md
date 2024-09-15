@@ -1,12 +1,12 @@
 <img src="https://github.com/eliaccess/eliaccess/blob/main/img/header.png" alt="banner that says Elias Limouni, portfolio of a junior data scientist">
   
-### <div align="center">I'm Elias, a Junior Data Scientist 👨‍💻 Working since June 2020💻</div>  
+### <div align="center">I'm Elias, a Senior Data Scientist 👨‍💻 Working since June 2020💻</div>  
 
 - 🔭 I’m currently working on NLP applications at [OppScience](https://oppscience.com/)
 - 📖 Master of Science in Computer Science at [Université de Technologie de Compiègne](https://www.utc.fr/en/courses-and-training/the-utc-engineering-diploma/computer-sciences-and-engineering-gi/) (French Engineering degree), graduated in 2023
 - 🌱 I'm always learning new techs to keep myself up to date
+- ⚡ I am passionate about finance, entrepreneurship, traveling and robotics
 - 📫 Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/elias-limouni/)  
-- ⚡ I love making robots, using Machine Learning to improve them
 
 <br/>
 
@@ -123,23 +123,14 @@ To get the name of the skill, place your cursor on it.
 
 # Projects
 
-To improve the lisibility of my projects, here is a legend of the emojis in the title of the projects:
+To improve the readability of my projects, here is a legend of the emojis in the title of the projects:
 - :lock: : private project, for a company for example, so I can not show the code
 - :abacus: : data science project
 - :robot: : robotics / IoT project
 - :books: : educational project
 - :man: : personal project
 
-List of the projects:
-- [Certifications \& Badges](#certifications--badges)
-      - [IBM Data Science Professional Certificate](#ibm-data-science-professional-certificate)
-      - [Machine Learning Specialization Certificate](#machine-learning-specialization-certificate)
-      - [Deep Learning Specialization Certificate](#deep-learning-specialization-certificate)
-      - [Machine Learning Engineering for Production (MLOps) Specialization Certificate](#machine-learning-engineering-for-production-mlops-specialization-certificate)
-- [Skills](#skills)
-    - [Data Science](#data-science)
-    - [Robotics \& IoT](#robotics--iot)
-    - [DevOps \& Miscs](#devops--miscs)
+
 - [Projects](#projects)
   - [:abacus: :books: Winning Space race with Data Science](#abacus-books-winning-space-race-with-data-science)
   - [:abacus: :books: Regression ML algorithms for CVSS estimation](#abacus-books-regression-ml-algorithms-for-cvss-estimation)
@@ -147,10 +138,9 @@ List of the projects:
   - [:abacus: :lock: OCR benchmark and preprocess optimization](#abacus-lock-ocr-benchmark-and-preprocess-optimization)
   - [:abacus: :lock: Machine Learning for Sentence Bounding Detection capabilities](#abacus-lock-machine-learning-for-sentence-bounding-detection-capabilities)
   - [:abacus: :lock: Relation Extraction models using clustering and semantic vectors combination systems](#abacus-lock-relation-extraction-models-using-clustering-and-semantic-vectors-combination-systems)
-  - [:abacus: :lock: Active Data Generation pipeline for automatic reinforcement learning systems](#abacus-lock-active-data-generation-pipeline-for-automatic-reinforcement-learning-systems)
+  - [:abacus: :lock: Active Data Generation pipeline for automatic reinforcement learning systems using a multi-agent approach](#abacus-lock-active-data-generation-pipeline-for-automatic-reinforcement-learning-systems-using-a-multi-agent-approach)
   - [:abacus: :books: Classification model on the Adults Income dataset](#abacus-books-classification-model-on-the-adults-income-dataset)
   - [:robot: :books: Following green target for Turtle Bot 3 Burger](#robot-books-following-green-target-for-turtle-bot-3-burger)
-- [Connect with me](#connect-with-me)
 
 ## [:abacus: :books: Winning Space race with Data Science](https://github.com/eliaccess/Applied-Data-Science-Capstone/blob/master/report-spacex.pdf)
 
