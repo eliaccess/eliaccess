@@ -255,19 +255,19 @@ On the best model, I obtained very good results that hugely improved the solutio
 This project came after the optimization of the NER models. Given extracted entities, we wanted to know the relation between each of them. For instance, is the relation between a person and a date a "birthdate" relation, or not? The following picture shows how relations can be useful in NLP systems.
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_explaination.png" target="_blank" alt="Relation Extraction use case example" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_explaination.PNG" target="_blank" alt="Relation Extraction use case example" width="50%">
 </p>
 
 This problem becomes more complex as we wanted to be able to introduce new relations in few-shot contexts, and also be able to reject samples (no relation), without having to train again the whole pipeline. Therefore, we designed a system that combines vectors (like BERT vectors), of each of the two entities, then projects them into a new space using a distance metric learning algorithm, and finally clusters all samples into labeled relations, as shown in the following picture.
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_algorithm.png" target="_blank" alt="Algorithm of the relation extraction solution" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_algorithm.PNG" target="_blank" alt="Algorithm of the relation extraction solution" width="50%">
 </p>
 
 After various optimizations, especially on the vector combination step, we achieved very good results, that allowed this system to be industriliazed and go to production.
 
 <p align="center">
-  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_results.png" target="_blank" alt="Results of the relation extraction model" width="50%">
+  <img src="https://github.com/eliaccess/eliaccess/blob/main/img/relation_extraction_results.PNG" target="_blank" alt="Results of the relation extraction model" width="50%">
 </p>
 
 This unique system allowed us to solve very complex real-world problems in few-shot contexts, with very minimal training time as we used pre-trained encoders.
